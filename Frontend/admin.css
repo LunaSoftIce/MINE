@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+body{
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+#usernamePlaceholder{
+  font-size: 2rem;
+}
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+h2{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-decoration: underline;
+
+}
+
+#anzeigecont{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#firmenanzeige, #projekteanzeige, #useranzeige, #detailanzeige {
+  padding: 20px 0;
+}
+
+li{
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#firmenanzeigecont, #projekteanzeigecont, #useranzeigecont, #detailanzeigecont{
+  width: fit-content;
+  margin-bottom: 20px;
+  background-color: rgb(78, 78, 78);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.lihightlight{
+  background-color: rgb(171, 154, 0);
+  border-radius: 5px;
+}
+
+#detailanzeige p{
+  margin: 5px 0;
+}
