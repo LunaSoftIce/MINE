@@ -22,6 +22,10 @@ button{
   color: white;
   padding: 10px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+button:hover{
+  background-color: rgb(4, 68, 77);
 }
 
 nav{
@@ -59,6 +63,9 @@ li{
   padding: 20px;
   border-radius: 10px;
 }
+#detailanzeigecont{
+  width: 100%;
+}
 
 .lihightlight{
   background-color: rgb(171, 154, 0);
@@ -67,4 +74,26 @@ li{
 
 #detailanzeige p{
   margin: 5px 0;
+}
+
+
+h3{
+  margin-top: 10px;
+}
+
+
+.detailGrid div{
+  display: flex;
+}
+
+.detailGrid div p{
+  width: 50%;
+  padding: 0 10px;
+}
+.detailGrid label{
+  width: 50%;
+}
+
+#persoDatenAnpassen div{
+  margin: 10px 0;
 }

@@ -218,3 +218,4 @@ async function loadUserDetails(userId) {
     console.error("Fehler beim Laden der User-Details:", err);
   }
 }
+
